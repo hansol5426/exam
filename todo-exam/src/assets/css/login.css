@@ -1,0 +1,14 @@
+@charset 'UTF-8';
+
+.login-box {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 20px;
+  column-gap: 10px;
+  height: 150px;
+}
+
+.login-box select {
+  width: 270px;
+}

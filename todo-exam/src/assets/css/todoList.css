@@ -1,0 +1,26 @@
+@charset 'UTF-8';
+
+.todo-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50vh;
+  border-radius: 7px;
+  padding: 2rem 1rem;
+  margin-top: 10px;
+  overflow-y: auto;
+  background-color: #f2f2f2;
+}
+
+.todo-list {
+  flex: 1;
+}
+
+.todo-text {
+  flex: 3;
+}
+
+.todo-button {
+  flex: 1;
+  flex-wrap: nowrap;
+}

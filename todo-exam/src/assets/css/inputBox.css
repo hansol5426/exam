@@ -1,0 +1,14 @@
+@charset 'UTF-8';
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  column-gap: 10px;
+  height: 100px;
+}
+
+.input-box input {
+  width: 500px;
+}
